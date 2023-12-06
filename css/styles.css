@@ -1,0 +1,294 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e5e5e5;
+    padding: 40px;
+}
+
+/* wrapper  */
+
+.wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    background: #fffffc;
+    width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* mein content  */
+ 
+.mein-content {
+
+    padding: 88px; 
+}
+
+ /* about me  */
+
+.my-profession {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    max-width: 0 0 18px 0;
+}
+
+.my-name {
+    font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+
+color: #000000;
+margin: 0 0 28px 0;
+}
+
+.my-descr {
+ font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+.about-me {
+    margin-bottom: 64px;
+}
+
+/* projects  */
+.mein-content-title {
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 27px;
+color: #000000;
+margin: 0 0 8px 0;
+}
+
+.project-item {
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #000000;
+}
+
+.project-list {
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+
+.project-container {
+    margin-bottom: 48px;
+}
+
+.project-item-descr {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+.project-item-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #005FFF;
+}
+
+/* work experiense  */
+
+.work-experience-container {
+    margin-bottom: 44px;
+}
+
+.work-experience-position {
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+margin: 0;
+}
+
+.work-experience-place {
+    margin-bottom: 16px;
+}
+
+.work-experience-company {
+    color: #6D9BF5;
+}
+
+.work-period {
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+color: #A8A8A8;
+margin: 12px 0 8px 0;
+}
+
+.work-duties {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+.work-dot {
+padding: 0 0 0 18px;
+margin: 0;
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+color: #595959;
+}
+
+/* sitebar  */
+
+.sitebar {
+width: 370px;
+background-color: rgb(253, 255, 223);
+}
+
+/* my photo */
+.my-photo {
+    margin-top: 40px;
+}
+
+/* contacts  */
+
+.contacts, 
+.tech-skills, 
+.soft-skills {
+
+    margin-top: 48px;
+    margin-left: 40px;
+}
+
+.sitebar-title {
+
+ font-style: normal;
+ font-weight: 700;
+ font-size: 22px;
+ line-height: 27px;
+
+ color: #161D2A;
+
+ margin-bottom: 8px;
+}
+
+/* contacts type */
+.type {
+    font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+color: #161D2A;
+
+margin-right: 8px;
+}
+
+/* contacts item  */
+
+.contacts-item {
+    margin: 0;
+}
+
+.number{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #161D2A;
+}
+
+.gmail {
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    text-decoration-line: underline;
+    
+    color: #2979FF;
+}
+
+/* skills  */
+
+.skills-list {
+    margin: 0;
+    padding: 0 0 0 18px;
+}
+
+.list-item {
+    color: #6D9BF5;
+}
+
+.list-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+color: #161D2A;
+}
+
+/* soft-skills  */
+   .soft-list {
+        margin: 0;
+        padding: 0 0 0 18px;
+    }
+
+    .soft-item {
+        color: #6D9BF5; 
+    }
+
+    .soft-text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        
+        color: #161D2A;
+    }
+
+    /* education  */
+    .School {
+        padding: 0 0 0 0;
+        margin: 0 0 12px 0;
+        font-style: normal;
+       font-weight: 700;
+        font-size: 16px;
+       line-height: 20px;
+      color: #6D9BF5;
+    }
+
+    .data {
+        padding: 0;
+        margin: 0 0 0 0;
+        font-style: normal;
+     font-weight: 400;
+      font-size: 12px;
+      line-height: 15px;
+     color: #A8A8A8;
+    }
+
+    .course {
+        padding: 0 0 0 0;
+        margin: 0 0 12px 0;
+        font-style: normal;
+       font-weight: 700;
+     font-size: 14px;
+     line-height: 17px;
+      color: #000000;
+    }
